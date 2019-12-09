@@ -1,12 +1,12 @@
 var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles']
 
 function addElementToBeginningOfArray(array, element){
-    let newArr = arr.unshift(element)
+    let newArr = array.unshift(element)
     return newArr
 }
 
 function addElementToEndOfArray(array, element){
-  let newArr = arr.push(element)
+  let newArr = array.push(element)
   return newArr
 }
 
