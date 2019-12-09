@@ -13,11 +13,11 @@ function addElementToEndOfArray(array, element){
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  return arr.unshift(element)
+  return array.unshift(element)
 }
 
 function destructivelyAddElementToEndOfArray(array, element) {
-  return arr.pop(element)
+  return array.pop(element)
 }
 
 const accessElementInArray = (arr, index) => {
