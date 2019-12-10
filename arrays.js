@@ -4,7 +4,7 @@ function addElementToBeginningOfArray(array, element){
   var newArr = []
   newArr = array.map(item => newArr.push(item))
   newArr.unshift(element)
-  return array.unshift(element)
+  return newArr
 }
 
 function addElementToEndOfArray(array, element){
