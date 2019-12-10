@@ -15,13 +15,13 @@ function addElementToEndOfArray(array, element){
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  newArr = array
+  var newArr = array
   newArr.unshift(element)
   return newArr
 }
 
 function destructivelyAddElementToEndOfArray(array, element) {
-  newArr = array
+  var newArr = array
   newArr.push(element)
   return newArr
 }
@@ -41,7 +41,7 @@ function destructivelyRemoveElementFromEndOfArray(array){
 }
 
 function removeElementFromBeginningOfArray(array){
-  //newArr = []
+  var newArr = []
   newArr = array.map(item => newArr.push(item))
   newArr.shift()
   return newArr
