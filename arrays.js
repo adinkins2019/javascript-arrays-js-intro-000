@@ -46,3 +46,10 @@ function removeElementFromBeginningOfArray(array){
   newArr.shift()
   return newArr
 }
+
+function removeElementFromEndOfArray(array){
+  //var newArr = []
+  var newArr = array.map(item => newArr.push(item))
+  newArr.pop()
+  return newArr
+}
