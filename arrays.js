@@ -41,7 +41,7 @@ function destructivelyRemoveElementFromEndOfArray(array){
 }
 
 function removeElementFromBeginningOfArray(array){
-  newArr = []
+  //newArr = []
   newArr = array.map(item => newArr.push(item))
   newArr.shift()
   return newArr
