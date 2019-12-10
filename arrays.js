@@ -39,3 +39,10 @@ function destructivelyRemoveElementFromEndOfArray(array){
   array.pop()
   return array
 }
+
+function removeElementFromBeginningOfArray(array){
+  newArr = []
+  newArr = array.map(item => newArr.push(item))
+  newArr.shift()
+  return newArr
+}
